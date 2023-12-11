@@ -9,3 +9,4 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ## Authors
 
 - [@Alexey Chernov](https://github.com/alexeychern0v)
+- [@Ines Oubabas](https://github.com/alexeychern0v)
