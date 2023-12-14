@@ -48,3 +48,4 @@ char *_strcat(char *, char *);
 /*string functions2.c */
 char *_strncpy(char *, char *, int);
 
+#endif
