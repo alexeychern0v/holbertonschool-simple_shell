@@ -11,6 +11,7 @@
 #include <limits.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <wait.h>
 
 /* for read/write buffers */
 #define READ_SIZE 1024
