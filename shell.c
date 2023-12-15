@@ -1,17 +1,17 @@
 #include "shell.h"
 /**
- * main - infinitely displays prompt and executes commands
+ * shell - infinitely displays prompt and executes commands
  * Return: zero
  */
-int main(void)
+int shell(void)
 {
 	char command[128];
 
 	while (1)
 	{
-		display_prompt();
+		prompt();
 		user_input(command, sizeof(command));
-		execute_command(command);
+		execute(command);
 	}
 	return (0);
 }

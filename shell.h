@@ -12,9 +12,10 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <wait.h>
+#include <stdbool.h>
 
-void execute_command(const char *command);
-void display_prompt(void);
+void execute(const char *command);
+void prompt(void);
 int tokenization(void);
 void user_input(char *command, size_t size);
 

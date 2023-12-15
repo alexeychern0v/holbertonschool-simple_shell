@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * display_prompt - function that displays prompt
+ * prompt - function that displays prompt
  */
-void display_prompt(void)
+void prompt(void)
 {
 	printf("shell_project$ ");
 }

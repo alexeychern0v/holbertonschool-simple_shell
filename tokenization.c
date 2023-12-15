@@ -5,12 +5,12 @@
  */
 int tokenization(void)
 {
-	char command[] = "I am Shell";
-
+	char *args[256];
+	int arg_count = 0;
 	char *token;
 	char *delim = " ";
 
-	token = strtok(command, delim);
+	chat *token = strtok((char *)command, delim);
 
 	while (token != NULL)
 	{
