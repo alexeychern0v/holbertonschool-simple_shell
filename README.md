@@ -8,8 +8,14 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 # Usage
 
+## Running the Shell
 ```
-./simple_shell
+./hsh
+```
+## The shell compilation command
+
+```
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
 
 ### List of allowed functions and system calls+
