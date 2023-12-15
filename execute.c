@@ -1,6 +1,7 @@
 #include "shell.h"
 /**
  * execute - executes users command
+ *
  * @command: users command
  */
 void execute(const char *command)
