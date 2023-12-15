@@ -17,13 +17,14 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 # How to Use
 
--1- Compile the Shell using the compilation command from below
+- Compile the Shell using the compilation command from below
 
--2- Run the executable
+- Run the executable
 ```
 ./hsh
 ```
--3- Inter commands as you would in a regular shell.
+- Inter commands as you would in a regular shell.
+
 ![App Screenshot](https://cdn.discordapp.com/attachments/1183742075821379636/1185243888244498452/image.png?ex=658ee763&is=657c7263&hm=af9f5eb9f37e62cfb8e6b852c1e2e5086d6618e6f357713e55d76c7f778c3f36&)
 
 ### List of allowed functions and system calls+
