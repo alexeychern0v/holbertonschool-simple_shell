@@ -1,8 +1,10 @@
 #include "shell.h"
 /**
- * user_input - Read the commands from the user
+ * user_input - Read a string command line
+ *
  * @size: length of string
- * @command:caracter to check
+ *
+ * @command: cHr to check
  */
 void user_input(char *command, size_t size)	
 {
