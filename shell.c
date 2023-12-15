@@ -4,7 +4,7 @@
  *
  * Return: zero on success
  */
-int shell_project(void)
+int main(void)
 {
 	char command[120];
 
