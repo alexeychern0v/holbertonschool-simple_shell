@@ -1,6 +1,8 @@
 # C - Simple Shell
 
-A brief description of what this project does and who it's for
+## Introduction
+
+Welcome to the Simple Shell! This shell program allows users to interact with a basic command-line interface, execute commands, and perform various tasks.
 
 ## Features
 
@@ -26,6 +28,15 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 - Inter commands as you would in a regular shell.
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1183742075821379636/1185243888244498452/image.png?ex=658ee763&is=657c7263&hm=af9f5eb9f37e62cfb8e6b852c1e2e5086d6618e6f357713e55d76c7f778c3f36&)
+
+## Exiting the Shell
+
+To exit the shell and return to the regular command prompt, enter:
+
+```
+exit
+```
+The shell will display a farewell message and close.
 
 ### List of allowed functions and system calls+
 
@@ -67,7 +78,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 - wait4 (man 2 wait4)
 - write (man 2 write)
 
-## Authors
+## AUTHORS
 
 - [@Alexey Chernov](https://github.com/alexeychern0v)
 - [@Ines Oubabas](https://github.com/alexeychern0v)
