@@ -6,7 +6,7 @@
  *
  * @command: cHr to check
  */
-void user_input(char *command, size_t size)	
+void user_input(char *command, size_t size)
 {
 	if (fgets(command, size, stdin) == NULL)
 	{
