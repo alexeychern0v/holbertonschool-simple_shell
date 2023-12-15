@@ -1,6 +1,9 @@
 #include "shell.h"
-
-int main()
+/**
+ * tokenization - function that breaks a string into small components
+ * Return: zero
+ */
+int tokenization(void)
 {
 	char command[] = "I am Shell";
 
@@ -14,5 +17,5 @@ int main()
 		printf("Token: %s\n", token);
 		token = strtok(NULL, delim);
 	}
-	return 0;
+	return (0);
 }

@@ -13,6 +13,12 @@
 #include <errno.h>
 #include <wait.h>
 
+void display_prompt(void);
+void leo_print(const char *message);
+void read_command(char *command, size_t size);
+void execute_command(const char *command);
+
+
 /* for read/write buffers */
 #define READ_SIZE 1024
 #define WRITE_BUF_SIZE 1024
