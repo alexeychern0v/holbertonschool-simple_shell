@@ -3,15 +3,15 @@
  * shell - infinitely displays prompt and executes commands
  * Return: zero
  */
-int shell(void)
+int main(void)
 {
-	char command[128];
-
-	while (1)
+	char command[120];
+	
+	while (true)
 	{
 		prompt();
 		user_input(command, sizeof(command));
 		execute(command);
 	}
-	return (0);
+	return 0;
 }

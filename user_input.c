@@ -4,7 +4,7 @@
  * @size: length of string
  * @command:caracter to check
  */
-void user_input(char *command, size_t size)
+void user_input(char *command, size_t size)	
 {
 	if (fgets(command, size, stdin) == NULL)
 	{
@@ -15,7 +15,7 @@ void user_input(char *command, size_t size)
 		}
 		else
 		{
-			perror("fgets");
+			printf("Error while reading input.\n");
 			exit(EXIT_FAILURE);
 		}
 	}
