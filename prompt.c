@@ -4,5 +4,5 @@
  */
 void prompt(void)
 {
-	printf("Alexey il est bien russe$ ");
+	printf("Simple Shell Project$ ");
 }

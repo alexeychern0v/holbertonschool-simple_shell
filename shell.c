@@ -1,17 +1,23 @@
 #include "shell.h"
 /**
- * shell - infinitely displays prompt and executes commands
- * Return: zero
+ * shell_project - infinitely displays prompt and executes commands
+ *
+ * Return: zero on success
  */
-int main(void)
+int shell_project(void)
 {
 	char command[120];
-	
+
 	while (true)
 	{
 		prompt();
 		user_input(command, sizeof(command));
-		execute(command);
+		if (strcmp(command, "exit") == 0)
+		{
+			printf("Thank you from Ines and Alexey. See you soon!\n");
+			break;
+		}
+		 execute(command);
 	}
-	return 0;
+	return (0);
 }
