@@ -2,21 +2,29 @@
 
 A brief description of what this project does and who it's for
 
+## Features
+
+- Basic command execution.
+- Input/output redirection.
+- Simple job control (background and foreground execution).
+- Support for common shell commands and built-ins.
+
 ## The shell compilation command
 
+```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+```
 
-# Usage
+# How to Use
 
-## Running the Shell
+-1- Compile the Shell using the compilation command from below
+
+-2- Run the executable
 ```
 ./hsh
 ```
-## The shell compilation command
-
-```
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-```
+-3- Inter commands as you would in a regular shell.
+![App Screenshot](https://cdn.discordapp.com/attachments/1183742075821379636/1185243888244498452/image.png?ex=658ee763&is=657c7263&hm=af9f5eb9f37e62cfb8e6b852c1e2e5086d6618e6f357713e55d76c7f778c3f36&)
 
 ### List of allowed functions and system calls+
 
