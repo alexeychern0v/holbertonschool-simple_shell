@@ -8,11 +8,19 @@
  */
 void user_input(char *command, size_t size)
 {
+	if (isatty(STDIN_FILENO))
+	{
+		prompt();
+	}
+
 	if (fgets(command, size, stdin) == NULL)
 	{
 		if (feof(stdin))
 		{
-			printf("\n");
+			if (isatty(STDIN_FILENO))
+			{
+				printf("\n");
+			}
 			exit(EXIT_SUCCESS);
 		}
 		else
@@ -21,5 +29,7 @@ void user_input(char *command, size_t size)
 			exit(EXIT_FAILURE);
 		}
 	}
+
 	command[strcspn(command, "\n")] = '\0';
 }
+
