@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Simple Shell is our final project of the first trimestr in Holberton. We used all our skills and knowledge of Shell an C languages. We recreated a Simple Shell using C. This shell program allows users to interact with a basic command-line interface, execute commands, and perform various tasks all like in basic Shell.
+Simple Shell is our final project of the first trimester in Holberton. With all skills developped during our studies, we recreated a Simple Shell using C. This shell program allows users to interact with a basic command-line interface, execute commands, and perform various tasks all like in basic Shell.
 
 ## Features
 
