@@ -8,11 +8,6 @@
  */
 void user_input(char *command, size_t size)
 {
-	if (isatty(STDIN_FILENO))
-	{
-		prompt();
-	}
-
 	if (fgets(command, size, stdin) == NULL)
 	{
 		if (feof(stdin))
