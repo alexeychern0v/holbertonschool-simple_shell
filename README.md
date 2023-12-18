@@ -76,7 +76,10 @@ The shell will display a farewell message and close.
 - waitpid (man 2 waitpid)
 - wait3 (man 2 wait3)
 - wait4 (man 2 wait4)
-- write (man 2 write)
+
+## Flowchart
+
+![App Screenshot](https://drive.google.com/file/d/1DZ7DnDydpqiIjPYxV4yGeGP33E7NUa21/view?usp=sharing)
 
 ## AUTHORS
 
