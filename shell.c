@@ -10,7 +10,7 @@ int main(void)
 
 	while (true)
 	{
-		if (isatty(fileno(stdin)))
+		if (isatty(STDIN_FILENO))
 			prompt();
 		user_input(command, sizeof(command));
 		if (strcmp(command, "exit") == 0)
