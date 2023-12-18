@@ -42,6 +42,13 @@ The shell will display a farewell message and close.
 
 ![Image](https://github.com/alexeychern0v/holbertonschool-simple_shell/assets/97944947/a5c2077d-6652-406f-97d7-6da4c5ab2766)
 
+## File Descriptions
+- **shell.c:** Main logic for the shell, including the main function.
+- **execute.c:** Tokenize user's input and run necessary commands.
+- **prompt.c:** Function to display prompt
+- **user_input.c:** Function to read user input.
+- **shell.h:** Header file
+
 ## AUTHORS
 
 - [@Alexey Chernov](https://github.com/alexeychern0v)
