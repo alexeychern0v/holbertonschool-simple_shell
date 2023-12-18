@@ -19,10 +19,10 @@ None
 The shell returns the following exit statuses:
 .TP
 .B 0
-Successful execution.
+Thank you from Ines and Alexey. See you soon!.
 .TP
 .B 1
-Command not found or error.
+Error executing command.
 
 .SH EXAMPLES
 .PP
@@ -33,7 +33,8 @@ $ simple_shell
 To execute a command:
 .EX
 $ /bin/ls
-file1 file2 file3
+AUTHORS    hsh                 prompt.c   shell.c  user_input.c
+execute.c  man_1_simple_shell  README.md  shell.h
 .PP
 To exit the shell:
 .EX
@@ -41,7 +42,7 @@ $ exit
 
 .SH AUTHORS
 .PP
-This manual page was written by [Ines Oubabas & Alexy Chernov].
+This manual page was written by [Ines Oubabas & Alexey Chernov].
 
 .SH SEE ALSO
 .PP
