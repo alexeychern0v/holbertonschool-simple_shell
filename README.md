@@ -48,6 +48,7 @@ The shell will display a farewell message and close.
 - **prompt.c:** Function to display prompt
 - **user_input.c:** Function to read user input.
 - **shell.h:** Header file
+- **README.md:** Description of the project.
 
 ## AUTHORS
 
