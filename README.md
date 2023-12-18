@@ -53,4 +53,4 @@ The shell will display a farewell message and close.
 ## AUTHORS
 
 - [@Alexey Chernov](https://github.com/alexeychern0v)
-- [@Ines Oubabas](https://github.com/alexeychern0v)
+- [@Ines Oubabas](https://github.com/Ines-Oubabas)
