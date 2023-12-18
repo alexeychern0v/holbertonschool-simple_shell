@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * shell_project - infinitely displays prompt and executes commands
+ * main - infinitely displays prompt and executes commands
  *
  * Return: zero on success
  */
@@ -10,7 +10,8 @@ int main(void)
 
 	while (true)
 	{
-		prompt();
+		if (isatty(fileno(stdin)))
+			prompt();
 		user_input(command, sizeof(command));
 		if (strcmp(command, "exit") == 0)
 		{

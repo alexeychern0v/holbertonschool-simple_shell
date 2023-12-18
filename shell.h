@@ -16,7 +16,6 @@
 
 void execute(const char *command);
 void prompt(void);
-int tokenization(void);
 void user_input(char *command, size_t size);
 
 #endif
