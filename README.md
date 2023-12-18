@@ -79,7 +79,7 @@ The shell will display a farewell message and close.
 
 ## Flowchart
 
-![App Screenshot](https://drive.google.com/file/d/1DZ7DnDydpqiIjPYxV4yGeGP33E7NUa21/view?usp=sharing)
+![Image](![image](https://github.com/alexeychern0v/holbertonschool-simple_shell/assets/97944947/a5c2077d-6652-406f-97d7-6da4c5ab2766)
 
 ## AUTHORS
 
