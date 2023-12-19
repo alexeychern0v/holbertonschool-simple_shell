@@ -15,7 +15,6 @@ int main(void)
 		user_input(command, sizeof(command));
 		if (strcmp(command, "exit") == 0)
 		{
-			printf("Thank you from Ines and Alexey. See you soon!\n");
 			break;
 		}
 		 execute(command);
