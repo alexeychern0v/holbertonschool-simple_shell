@@ -1,50 +1,90 @@
-The shell supports the execution of basic commands and can handle command line arguments.
+./" This is the man page of the simple_shell program, called hsh
+.TH simple_shell "11-12-23""1.0"simple_shell man page"
 
-.SH BUILT-IN COMMANDS
-.PP
-The following built-in commands are supported:
-.TP
-.B exit
-Exit the shell.
-.TP
-.B env
-Display the current environment.
 
-.SH OPTIONS
-.PP
-None
+.SH NAME
 
-.SH EXIT STATUS
-.PP
-The shell returns the following exit statuses:
-.TP
-.B 0
-Thank you from Ines and Alexey. See you soon!.
-.TP
-.B 1
-Error executing command.
+HSH \- simple_shell project
+
+hsh : command line interpreter for the simple_shell project
+
+
+.SH SYNOPSIS
+
+- run "./hsh" (interactive mode)
+
+- run "echo"/bin/(command)" | ./hsh" (non-interactive mode)
+
+
+.SH DESCRIPTION
+
+hsh is a part of the simple_shell project, a simple and limited recreation of the Unix shell program.
+
+hsh permits to run simple_shell in both interactive and non-interactive mode.
+
+It reads and implements basic commands input by the user.
+
+
+.SH COMPILATION
+
+hsh is compiled on UBUNTU 20.04.4 LTS with GCC 9.4.0., and flags -Wall, -Werror, -Wextra, and -pedantic.
+
+The propmt 'Simple Shell Project$ ' will appear on terminal. Now you can enter commands after the prompt and then execute the commands by pressing 'ENTER' key.
+
+
+.SH USAGE
+
+Upon input of a command, the simple_shell follows these actions:
+
+.SH - tokenizing the string that represents the entered command, followed by creating an array of pointers.
+
+.SH - checking whether the command is an alias or a built-in command on the PATH variable by merging the command pointer with each directory pointer in the PATH variable.
+
+.SH - If the pointers match, executing the command by forking the program, creating a child process with a different PID from the parent process.
+
+.SH - After executing the command, the shell program stops the search, releases the memory, and prompts for the user's next input
+
+.SH - quitting the program by entering 'exit' or do Ctrl + D.
+
+
+.SH COMMANDS
+
+$ ls / ls -l
+$ /bin/ls -l
+$ pwd
+$ echo
+$ env
+$ exit
+
 
 .SH EXAMPLES
-.PP
-To start the shell:
-.EX
-$ simple_shell
-.PP
-To execute a command:
-.EX
-$ /bin/ls
+
+root@user-name:~/holbertonschool-simple_shell# ./hsh
+
+Simple Shell Project$ ls
+
 AUTHORS    hsh                 prompt.c   shell.c  user_input.c
 execute.c  man_1_simple_shell  README.md  shell.h
-.PP
-To exit the shell:
-.EX
-$ exit
+
+Simple Shell Project$ pwd
+
+/holbertonschool-simple_shell
+
+Simple Shell Project$ exit
+
+Thank you from Ines and Alexey. See you soon!.
+
+^D
+(ctrl + D to quit the program)
+
+root@user-name:~/holbertonschool-simple_shell# echo "/bin/ls" | ./hsh
+
+AUTHORS    hsh                 prompt.c   shell.c  user_input.c
+execute.c  man_1_simple_shell  README.md  shell.h
+
+root@user-name:~/holbertonschool-simple_shell#
+
 
 .SH AUTHORS
 .PP
 This manual page was written by [Ines Oubabas & Alexey Chernov].
-
-.SH SEE ALSO
-.PP
-.BR bash (1),
-.BR sh (1)
