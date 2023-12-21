@@ -4,5 +4,5 @@
  */
 void prompt(void)
 {
-	printf("Shell$ ");
+	printf("Shelllllll$ ");
 }
