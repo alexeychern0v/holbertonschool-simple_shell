@@ -40,7 +40,7 @@ The shell will display a farewell message and close.
 
 ## Flowchart
 
-![Image](https://github.com/alexeychern0v/holbertonschool-simple_shell/assets/97944947/a5c2077d-6652-406f-97d7-6da4c5ab2766)
+![image](https://github.com/alexeychern0v/holbertonschool-simple_shell/assets/97944947/91d04df0-023f-4c5b-acc1-79c5e0bc1505)
 
 ## File Descriptions
 - **shell.c:** Main logic for the shell, including the main function.
