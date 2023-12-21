@@ -27,7 +27,7 @@ void execute(const char *command)
 		}
 		args[arg_count] = NULL;
 		execvp(args[0], args);
-		printf("Error executing command.\n");
+		printf("command not found\n");
 		exit(EXIT_FAILURE);
 	}
 	else
